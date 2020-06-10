@@ -13,7 +13,7 @@ Education **Software Development**
 
 
 ```python {cmd="python" hide=true}
-with open('questions.md') as file:
+with open('questions.raw.md') as file:
     total_objectives = 0
     acquired_objectives = 0
 
@@ -24,7 +24,7 @@ with open('questions.md') as file:
             if '- [x]' in line:
                 acquired_objectives += 1
 
-print('acquired objectives', acquired_objectives, '/', total_objectives)
+print('acquired objectives', acquired_objectives - 1, '/', total_objectives - 2)
 ```
 
 ___
