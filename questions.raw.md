@@ -211,22 +211,22 @@ Linters is like spell checkers whenever you make a spelling mistake the spell ch
 ...
 [source, not implemented]()
 
-### 5.2 Names of tests**
+### 5.2 Names of tests
 
 ...
 [source, not implemented]()
 
-### 5.3 “sufficient” tests of a method or class**
+### 5.3 “sufficient” tests of a method or class
 
 ...
 [source, not implemented]()
 
-### 5.4 Assertions, defensive programming**
+### 5.4 Assertions, defensive programming
 
 ...
 [source, not implemented]()
 
-### 5.5 Dependency injection**
+### 5.5 Dependency injection
 
 ...
 [source, not implemented]()
