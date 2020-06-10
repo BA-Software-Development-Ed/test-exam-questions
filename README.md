@@ -12,10 +12,10 @@ Education **Software Development**
   
   
   
-- [ ] [1.](#1 )
+- [x] [1.](#1 )
     - [x] [1.1 StyleCop, PMD, FindBugs](#11-stylecop-pmd-findbugs )
     - [x] [1.2 Linters, SonarLint](#12-linters-sonarlint )
-    - [ ] [1.3 Security](#13-security )
+    - [x] [1.3 Security](#13-security )
 - [ ] [2.](#2 )
     - [ ] [2.1 Unit testing](#21-unit-testing )
     - [ ] [2.2 Integration testing](#22-integration-testing )
