@@ -14,7 +14,6 @@ acquired objectives 1 / 71
 ```
 
   
-___
 ##   Content Progress
   
   
@@ -102,7 +101,6 @@ ___
     - [ ] [13.3 Edge cases](#133-edge-cases )
     - [ ] [13.4 Decision tables](#134-decision-tables )
     - [ ] [13.5 Code coverage](#135-code-coverage )
-___
   
 ##  1.
   
@@ -157,7 +155,6 @@ Static Analysis means that automated software runs through your code source with
 ...
 [source not implemented]( )
   
-___
   
 ##  2.
   
@@ -198,7 +195,6 @@ ___
   
 ...
 [source not implemented]( )
-___
   
 ##  3.
   
@@ -239,7 +235,6 @@ ___
   
 ...
 [source not implemented]( )
-___
   
 ##  4.
   
@@ -280,7 +275,6 @@ ___
   
 ...
 [source not implemented]( )
-___
   
 ##  5.
   
@@ -315,7 +309,6 @@ ___
   
 ...
 [source not implemented]( )
-___
   
 ##  6.
   
@@ -377,7 +370,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  7.
   
@@ -439,7 +431,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  8.
   
@@ -480,7 +471,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  9.
   
@@ -514,7 +504,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  10.
   
@@ -562,7 +551,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  11.
   
@@ -603,7 +591,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  12.
   
@@ -637,7 +624,6 @@ ___
   
 [source not implemented]( )
   
-___
   
 ##  13.
   
