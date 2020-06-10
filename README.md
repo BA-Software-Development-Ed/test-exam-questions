@@ -7,19 +7,14 @@ Institute **CPHBusiness**
 Education **Software Development**  
   
   
-
-
-```
-acquired objectives 1 / 71
-```
-
   
-##   Content Progress
+##   Content Progress / [_edit_](table-of-content.md )
+  
   
   
 - [ ] [1.](#1 )
     - [x] [1.1 StyleCop, PMD, FindBugs](#11-stylecop-pmd-findbugs )
-    - [ ] [1.2 Linters, SonarLint](#12-linters-sonarlint )
+    - [x] [1.2 Linters, SonarLint](#12-linters-sonarlint )
     - [ ] [1.3 Security](#13-security )
 - [ ] [2.](#2 )
     - [ ] [2.1 Unit testing](#21-unit-testing )
@@ -102,6 +97,7 @@ acquired objectives 1 / 71
     - [ ] [13.4 Decision tables](#134-decision-tables )
     - [ ] [13.5 Code coverage](#135-code-coverage )
   
+  
 ##  1.
   
 **We have looked at some static analysis tools like StyleCop, PMD, FindBugs and SonarLint. Explain how static analysis can improve code quality. Explain how it helped you or could have helped you in your project.**
@@ -109,51 +105,53 @@ acquired objectives 1 / 71
 ###  1.1 StyleCop, PMD, FindBugs
   
   
-**StyleCop**
-  
+**StyleCop**  
 This tool is a static source analyser for `C#` code made by Microsoft. It validates the code and checks if it complies the rules given by StyleCop. These rules are based on Microsoft's coding standards but can be modified or extended. 
   
 The rules are classified into theses categories - Documentation, Layout, Maintainability, Naming, Ordering, Readability and Spacing.
   
-[source](https://en.wikipedia.org/wiki/StyleCop )
+[source, wikipedia.org](https://en.wikipedia.org/wiki/StyleCop )
   
-**PMD**
-  
+**PMD**  
 This is also a source analyser that finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation etc. It support multiple languages.
   
-[source](https://pmd.github.io/#about )
+[source, github.io](https://pmd.github.io/#about )
   
-**FindBugs**
-  
+**FindBugs**  
 This is a static analyser tool that looks for bugs in Java.
   
-[source](http://findbugs.sourceforge.net/ )
+[source, sourceforge.net](http://findbugs.sourceforge.net/ )
   
 ###  1.2 Linters, SonarLint
   
   
-  
-**Linters**
-  
-A Linter is a tool that static analyses the source code and flags programming errors like bugs, stylish errors and suspicious constructs.
-  
+**Linters**  
+A Linter is a tool that static analyses the source code and flags programming errors like bugs, stylish errors and suspicious constructs. To avoid replacing tabs with spaces, creating incorrect indentations and inconsistent line breaks, a linter can set the rules for how the source should be structured. 
   
 **Static Analysis**  
 Static Analysis means that automated software runs through your code source without executing it. It statically checks for potential bugs, memory leaks, and any other check that may be useful.
   
-...
+[source, sourcelevel.io](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it )
   
-[source](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it )
+**SonarLint**  
+SonarLint is an IDE extension that helps you detect and fix quality issues as you write code.
+Like a spell checker, SonarLint squiggles flaws so that they can be fixed before committing code.
   
-**SonarLint**
+Works with Eclipse, InteliJ IDEA, Visual Studio and VS Code.
   
-...
+It constrains features as Instant View where you can see se an explanation, description and time of the issue. Its validates while your are typing and gives you instant messages if an issue has occurred. It has push notifications that tells you about the source status. 
+  
+[source, sonarlint.org](https://www.sonarlint.org/ )
+[source, sonarsource.com](https://www.sonarsource.com/products/sonarlint/ )
   
 ###  1.3 Security
   
   
-...
-[source not implemented]( )
+Static application security testing (SAST) is a static analyzing tool for locating security vulnerabilities. 
+  
+These tools can scan millions of lines of code in a matter of minutes. SAST tools automatically identify critical vulnerabilities—such as buffer overflows, SQL injection, cross-site scripting, and others—with high confidence.
+  
+[source, synopsys.com](https://www.synopsys.com/glossary/what-is-sast.html )
   
   
 ##  2.
@@ -227,6 +225,12 @@ Static Analysis means that automated software runs through your code source with
 ###  3.5 Static analysis
   
   
+**Static Analysis**  
+Static Analysis means that automated software runs through your code source without executing it. It statically checks for potential bugs, memory leaks, and any other check that may be useful.
+  
+...
+  
+[source](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it )
 ...
 [source not implemented]( )
   
