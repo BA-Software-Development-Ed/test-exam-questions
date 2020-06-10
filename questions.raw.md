@@ -119,7 +119,7 @@ ___
 ## 1.
 **We have looked at some static analysis tools like StyleCop, PMD, FindBugs and SonarLint. Explain how static analysis can improve code quality. Explain how it helped you or could have helped you in your project.**
 
-#### 1.1 StyleCop, PMD, FindBugs
+### 1.1 StyleCop, PMD, FindBugs
 
 **StyleCop**
 
@@ -141,7 +141,7 @@ This is a static analyser tool that looks for bugs in Java.
 
 [source](http://findbugs.sourceforge.net/)
 
-#### 1.2 Linters, SonarLint
+### 1.2 Linters, SonarLint
 
 
 **Linters**
@@ -160,7 +160,7 @@ Static Analysis means that automated software runs through your code source with
 
 ...
 
-#### 1.3 Security
+### 1.3 Security
 
 ...
 [source not implemented]()
@@ -170,32 +170,32 @@ ___
 ## 2.
 **Explain test levels, and what characterizes the individual levels. Then, relate to your own project.**
 
-#### 2.1 Unit testing
+### 2.1 Unit testing
 
 ...
 [source not implemented]()
 
-#### 2.2 Integration testing
+### 2.2 Integration testing
 
 ...
 [source not implemented]()
 
-#### 2.3 System testing
+### 2.3 System testing
 
 ...
 [source not implemented]()
 
-#### 2.4 Load testing
+### 2.4 Load testing
 
 ...
 [source not implemented]()
 
-#### 2.5 Static testing
+### 2.5 Static testing
 
 ...
 [source not implemented]()
 
-#### 2.6 Acceptance testing
+### 2.6 Acceptance testing
 
 ...
 [source not implemented]()
@@ -204,32 +204,32 @@ ___
 ## 3.
 **Explain what kinds of test can be carried out without running any code. Explain how it can be used on non-code documents as well.**
 
-#### 3.1 Reviews
+### 3.1 Reviews
 
 ...
 [source not implemented]()
 
-#### 3.2 Technical reviews
+### 3.2 Technical reviews
 
 ...
 [source not implemented]()
 
-#### 3.3 Management reviews
+### 3.3 Management reviews
 
 ...
 [source not implemented]()
 
-#### 3.4 Audit
+### 3.4 Audit
 
 ...
 [source not implemented]()
 
-#### 3.5 Static analysis
+### 3.5 Static analysis
 
 ...
 [source not implemented]()
 
-#### 3.6 Linters
+### 3.6 Linters
 
 ...
 [source not implemented]()
@@ -238,32 +238,32 @@ ___
 ## 4.
 **Explain test activities, and how they are related to each other. Then explain the test activities you carried out in your project.**
 
-#### 4.1 Unit testing
+### 4.1 Unit testing
 
 ...
 [source not implemented]()
 
-#### 4.2 Integration testing
+### 4.2 Integration testing
 
 ...
 [source not implemented]()
 
-#### 4.3 Refactoring
+### 4.3 Refactoring
 
 ...
 [source not implemented]()
 
-#### 4.4 Maintenance
+### 4.4 Maintenance
 
 ...
 [source not implemented]()
 
-#### 4.5 Continuous Integration
+### 4.5 Continuous Integration
 
 ...
 [source not implemented]()
 
-#### 4.6 Code reviews
+### 4.6 Code reviews
 
 ...
 [source not implemented]()
@@ -272,27 +272,27 @@ ___
 ## 5.
 **Testing is related to ensuring higher code quality. Elaborate on what characterizes high code quality, and what makes code testable.**
 
-#### 5.1 Testable code
+### 5.1 Testable code
 
 ...
 [source not implemented]()
 
-#### 5.2 Names of tests**
+### 5.2 Names of tests**
 
 ...
 [source not implemented]()
 
-#### 5.3 “sufficient” tests of a method or class**
+### 5.3 “sufficient” tests of a method or class**
 
 ...
 [source not implemented]()
 
-#### 5.4 Assertions, defensive programming**
+### 5.4 Assertions, defensive programming**
 
 ...
 [source not implemented]()
 
-#### 5.5 Dependency injection**
+### 5.5 Dependency injection**
 
 ...
 [source not implemented]()
@@ -301,49 +301,49 @@ ___
 ## 6.
 **Explain the concept of maintainable code, and how it’s related to test. Explain how to find out if a code base is maintainable.**
 
-#### 6.1 Maintainability
+### 6.1 Maintainability
 
 ...
 
 [source not implemented]()
 
-#### 6.2 Product quality
+### 6.2 Product quality
 
 ...
 
 [source not implemented]()
 
-#### 6.3 Temporal coupling
+### 6.3 Temporal coupling
 
 ...
 
 [source not implemented]()
 
-#### 6.4 Continuous Integration
+### 6.4 Continuous Integration
 
 ...
 
 [source not implemented]()
 
-#### 6.5 Static Analysis
+### 6.5 Static Analysis
 
 ...
 
 [source not implemented]()
 
-#### 6.6 Dependency injection, inversion of control
+### 6.6 Dependency injection, inversion of control
 
 ...
 
 [source not implemented]()
 
-#### 6.7 Low coupling, high cohesion
+### 6.7 Low coupling, high cohesion
 
 ...
 
 [source not implemented]()
 
-#### 6.8  Cyclomatic code complexity
+### 6.8  Cyclomatic code complexity
 
 ...
 
@@ -354,49 +354,49 @@ ___
 ## 7.
 **Explain unit testing, and what characterizes it in contrast to other types of test.**
 
-#### 7.1 What and why
+### 7.1 What and why
 
 ...
 
 [source not implemented]()
 
-#### 7.2 Unit Under Test System Under Test
+### 7.2 Unit Under Test System Under Test
 
 ...
 
 [source not implemented]()
 
-#### 7.3 Unit test lifecycle(BeforeAll, AfterAll _ SetUp, TearDown)_
+### 7.3 Unit test lifecycle(BeforeAll, AfterAll _ SetUp, TearDown)_
 
 ...
 
 [source not implemented]()
 
-#### 7.4 Test doubles (mock, fake, stub, spy)
+### 7.4 Test doubles (mock, fake, stub, spy)
 
 ...
 
 [source not implemented]()
 
-#### 7.5 Matchers(Hamcrest)
+### 7.5 Matchers(Hamcrest)
 
 ...
 
 [source not implemented]()
 
-#### 7.6 Test Driven Development
+### 7.6 Test Driven Development
 
 ...
 
 [source not implemented]()
 
-#### 7.7 Dependency Injection
+### 7.7 Dependency Injection
 
 ...
 
 [source not implemented]()
 
-#### 7.8 Equivalence classes, boundary value analysis, equivalence partitions
+### 7.8 Equivalence classes, boundary value analysis, equivalence partitions
 
 ...
 
@@ -407,31 +407,31 @@ ___
 ## 8.
 **Explain test driven development, and how it affects the development process and code quality.**
 
-#### 8.1 Red, Green, Refactor
+### 8.1 Red, Green, Refactor
 
 ...
 
 [source not implemented]()
 
-#### 8.2 Testable code
+### 8.2 Testable code
 
 ...
 
 [source not implemented]()
 
-#### 8.3 Maintainable code
+### 8.3 Maintainable code
 
 ...
 
 [source not implemented]()
 
-#### 8.4 Equivalence partitions
+### 8.4 Equivalence partitions
 
 ...
 
 [source not implemented]()
 
-#### 8.5 Positive, negative tests
+### 8.5 Positive, negative tests
 
 ...
 
@@ -442,25 +442,25 @@ ___
 ## 9.
 **Explain about test doubles. Explain how and why mocking is useful, and in what test areas.**
 
-#### 9.1 JMock, mocks, spies, stubs, fakes, dummies
+### 9.1 JMock, mocks, spies, stubs, fakes, dummies
 
 ...
 
 [source not implemented]()
 
-#### 9.2 Dependency injection
+### 9.2 Dependency injection
 
 ...
 
 [source not implemented]()
 
-#### 9.3 Interfaces, contracts
+### 9.3 Interfaces, contracts
 
 ...
 
 [source not implemented]()
 
-#### 9.4 Black-box vs white-box
+### 9.4 Black-box vs white-box
 
 ...
 
@@ -471,37 +471,37 @@ ___
 ## 10.
 **Characterize high quality software. Explain how writing tests can increase code quality.**
 
-#### 10.1 Defensive programming
+### 10.1 Defensive programming
 
 ...
 
 [source not implemented]()
 
-#### 10.2 Black-box development
+### 10.2 Black-box development
 
 ...
 
 [source not implemented]()
 
-#### 10.3 Interfaces, contracts
+### 10.3 Interfaces, contracts
 
 ...
 
 [source not implemented]()
 
-#### 10.4 Inversion of control
+### 10.4 Inversion of control
 
 ...
 
 [source not implemented]()
 
-#### 10.5 Dependency injection
+### 10.5 Dependency injection
 
 ...
 
 [source not implemented]()
 
-#### 10.6 Components
+### 10.6 Components
 
 ...
 
@@ -512,31 +512,31 @@ ___
 ## 11.
 **Elaborate on dependencies in software, and how it’s related to the subject of test.**
 
-#### 11.1 Dependencies between layers
+### 11.1 Dependencies between layers
 
 ...
 
 [source not implemented]()
 
-#### 11.2 System resources
+### 11.2 System resources
 
 ...
 
 [source not implemented]()
 
-#### 11.3 Relations between objects
+### 11.3 Relations between objects
 
 ...
 
 [source not implemented]()
 
-#### 11.4 Dependency inversion, Inversion of Control, Dependency Injection
+### 11.4 Dependency inversion, Inversion of Control, Dependency Injection
 
 ...
 
 [source not implemented]()
 
-#### 11.5 Mocks
+### 11.5 Mocks
 
 ...
 
@@ -547,25 +547,25 @@ ___
 ## 12.
 **Explain problems in test automation, and how a continuous integration tool can help.**
 
-#### 12.1 What is Continuous Integration?
+### 12.1 What is Continuous Integration?
 
 ...
 
 [source not implemented]()
 
-#### 12.2 How can a CI help regarding tests?
+### 12.2 How can a CI help regarding tests?
 
 ...
 
 [source not implemented]()
 
-#### 12.3 What is a regression?
+### 12.3 What is a regression?
 
 ...
 
 [source not implemented]()
 
-#### 12.4 What test levels can be covered by a CI system?
+### 12.4 What test levels can be covered by a CI system?
 
 ...
 
@@ -576,31 +576,31 @@ ___
 ## 13.
 **Explain specification-based testing, and how you can be more confident that you have written a sufficient amount of tests.**
 
-#### 13.1 Equivalence partitioning
+### 13.1 Equivalence partitioning
 
 ...
 
 [source not implemented]()
 
-#### 13.2 Boundary value analysis
+### 13.2 Boundary value analysis
 
 ...
 
 [source not implemented]()
 
-#### 13.3 Edge cases
+### 13.3 Edge cases
 
 ...
 
 [source not implemented]()
 
-#### 13.4 Decision tables
+### 13.4 Decision tables
 
 ...
 
 [source not implemented]()
 
-#### 13.5 Code coverage
+### 13.5 Code coverage
 
 ...
 
