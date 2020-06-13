@@ -1,15 +1,12 @@
 <!-- slide -->
+
 ## Question 6
-### Explain the concept of maintainable code, and how it’s related to test. 
-### Explain how to find out if a code base is maintainable.
+---
+Explain the concept of maintainable code,
+and how it’s related to test. 
 
-<!-- slide -->
-
-## Maintainability
-
-<!-- slide --->
-
-## Product quality
+---
+Explain how to find out if a code base is maintainable.
 
 <!-- slide --->
 
@@ -32,14 +29,25 @@ decimal price = calculator.CalculatePrice(myShoppingCart);
 
 ## Continuous Integration
 ![](https://i.imgur.com/klQuIlh.png)
+JUnit5 `@Tag` helps CI.
 
 <!-- slide --->
 
 ## Static Analysis
+|||
+|---|---|
+| StyleCop | Coding standards |
+| FindBugs | Bugs & potential bugs |
+| PMD | Warns Against bad practice |
 
 <!-- slide --->
 
-#### Dependency Injection & Inversion of Control
+## Inversion of Control
+![dependency inversion](../assets/dependency-inversion.png)
+
+<!-- slide --->
+
+## Dependency Injection
 
 Problem
 ```java

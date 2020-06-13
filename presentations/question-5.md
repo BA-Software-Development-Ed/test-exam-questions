@@ -1,11 +1,15 @@
 <!-- slide -->
+
 ## Question 5
-### Testing is related to ensuring higher code quality. 
-### Elaborate on what characterizes high code quality, and what makes code testable.
+Testing is related to ensuring higher code quality. 
+
+---
+Elaborate on what characterizes high code quality,
+and what makes code testable.
 
 <!-- slide -->
 
-## Why Test?
+## Why Testing?
 ![no test](../assets/comic-1.png)
 
 <!-- slide -->

@@ -1,33 +1,33 @@
 <!-- slide -->
 
 ## Question 2
-### Explain test levels, and what characterizes the individual levels. 
-### Then, relate to your own project.
+
+---
+Explain test levels,
+and what characterizes the individual levels. 
+
+---
+Then, relate to your own project.
 
 <!-- slide -->
 
 ## Test Levels
-![test-levels](../assets/test-levels.png)
+![v model](../assets/v-model.png)
 
 <!-- slide -->
 
 ## Unit testing
-![white-box](../assets/white-box.png)
-
-Testing: A, B, C & D
+![unit testing](../assets/utest-level.png)
 
 <!-- slide -->
 
 ## Integration testing
-![black-white-box](../assets/black-white-box.png)
-Testing: A → B, B → C & C → D
+![integration testing](../assets/itest-level.png)
 
 <!-- slide -->
 
 ## System testing
-![black-white-box](../assets/black-white-box.png)
-
-Testing: A ···→ D
+![system testing](../assets/stest-level.png)
 
 <!-- slide -->
 
@@ -49,6 +49,11 @@ And a lot more..
 <!-- slide -->
 
 ## Static testing
+|||
+|---|---|
+| StyleCop | Coding standards |
+| FindBugs | Bugs & potential bugs |
+| PMD | Warns Against bad practice |
 
 <!-- slide -->
 

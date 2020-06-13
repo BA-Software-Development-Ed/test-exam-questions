@@ -1,15 +1,18 @@
 <!-- slide -->
 ## Question 1
-We have looked at some static analysis tools like StyleCop, PMD, FindBugs and SonarLint. 
+We have looked at some static analysis tools
+like StyleCop, PMD, FindBugs and SonarLint. 
 
+---
 Explain how static analysis can improve code quality.
 
-Explain how it helped you or could have helped you in your project.
+---
+Explain how it helped you
+or could have helped you in your project.
 
 <!-- slide -->
 
 ## Static Analysis
-
 What is it, Examples & Benefits
 
 <!-- slide -->

@@ -1,10 +1,17 @@
 <!-- slide -->
+
 ## Question 9
-### Explain about test doubles. Explain how and why mocking is useful, and in what test areas.
+
+---
+Explain about test doubles. 
+
+---
+Explain how and why mocking is useful,
+and in what test areas.
 
 <!-- slide -->
 
-## What is Mocking
+## What is Mocking?
 
 <!-- slide -->
 

@@ -1,11 +1,16 @@
 <!-- slide -->
 
 ## Question 11
-### Elaborate on dependencies in software, and how it’s related to the subject of test.
+
+---
+Elaborate on dependencies in software,
+and how it’s related to the subject of test.
 
 <!-- slide -->
 
 ## Dependencies between layers
+Avoid layered dependencies - Use Facades
+... or Dependency Injection
 
 <!-- slide --->
 
@@ -15,10 +20,7 @@ System Clock, Network & File IO
 <!-- slide --->
 
 ## Relations between objects
-
-<!-- slide --->
-
-## Dependency inversion, Inversion of Control, Dependency Injection
+Higher relation between objects reduce testability, refactoring & maintainability
 
 <!-- slide --->
 
@@ -51,6 +53,14 @@ foo(user);
 <!-- slide --->
 
 ## Mocks
+
+|||
+|---|---|
+| **Dummy** | Doesn't know anything |
+| **Stub** | Knows what you told it |
+| **Spy** | Stub with features |
+| **Mock** | Expects a lot |
+| **Fake** | You cant tell the difference |
 
 <!-- slide --->
 

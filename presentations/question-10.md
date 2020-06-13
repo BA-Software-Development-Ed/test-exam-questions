@@ -1,7 +1,17 @@
 <!-- slide -->
 ## Question 10
-### Characterize high quality software. 
-### Explain how writing tests can increase code quality.
+Characterize high quality software. 
+
+---
+Explain how writing tests can increase code quality.
+
+<!-- slide -->
+
+## Why Testing?
+![comic 2](../assets/comic-2.png)
+
+_Murhy’s law_
+_**"Anything that can go wrong will go wrong"**_
 
 <!-- slide -->
 
@@ -25,6 +35,7 @@ Handle Exceptions
 <!-- slide --->
 
 ## Inversion of control
+![dependency inversion](../assets/dependency-inversion.png)
 
 <!-- slide --->
 
@@ -47,10 +58,6 @@ foo(IUser user) {
 IUser user = new User(name, age);
 foo(user);
 ```
-
-<!-- slide --->
-
-## Components
 
 <!-- slide --->
 

@@ -1,6 +1,9 @@
 <!-- slide -->
 ## Question 7
-### Explain unit testing, and what characterizes it in contrast to other types of test.
+
+---
+Explain unit testing, and what characterizes it
+in contrast to other types of test.
 
 <!-- slide -->
 
@@ -9,9 +12,7 @@
 <!-- slide --->
 
 ## What is Unit testing?
-![white-box](../assets/white-box.png)
-
-Testing: A, B, C & D
+![unit test](../assets/utest-level.png)
 
 <!-- slide -->
 

@@ -1,6 +1,9 @@
 <!-- slide -->
+
 ## Question 8
-### Explain test driven development, and how it affects the development process and code quality.
+---
+Explain test driven development, and how it affects
+the development process and code quality.
 
 <!-- slide -->
 
@@ -45,6 +48,7 @@ foo(user);
 
 ## Continuous Integration
 ![](https://i.imgur.com/klQuIlh.png)
+JUnit5 `@Tag` helps CI.
 
 <!-- slide --->
 

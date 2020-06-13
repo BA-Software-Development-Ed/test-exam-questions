@@ -1,6 +1,15 @@
 <!-- slide -->
 ## Question 13
-### Explain specification-based testing, and how you can be more confident that you have written a sufficient amount of tests.
+
+---
+Explain specification-based testing, 
+and how you can be more confident that
+you have written a sufficient amount of tests.
+
+<!-- slide -->
+
+## Specification-Based Testing
+![black box  testing](../assets/black-box.png)
 
 <!-- slide -->
 
@@ -38,9 +47,6 @@
 
 ## Path Coverage
 ![](https://i.imgur.com/lP55O5Q.png)
-
-
-<!-- slide --->
 
 <!-- slide --->
 

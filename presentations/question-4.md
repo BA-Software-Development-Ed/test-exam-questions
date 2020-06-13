@@ -1,7 +1,13 @@
 <!-- slide -->
+
 ## Question 4
-### Explain test activities, and how they are related to each other. 
-### Then explain the test activities you carried out in your project.
+---
+Explain test activities,
+and how they are related to each other. 
+
+---
+Then explain the test activities
+you carried out in your project.
 
 <!-- slide -->
 
@@ -11,27 +17,27 @@
 <!-- slide -->
 
 ## Unit testing
-![white-box](../assets/white-box.png)
-
-Testing: A, B, C & D
+![unit testing](../assets/utest-level.png)
 
 <!-- slide -->
 
 ## Integration testing
-![black-white-box](../assets/black-white-box.png)
-Testing: A → B, B → C & C → D
+![integration testing](../assets/itest-level.png)
 
 <!-- slide -->
 
 ## System testing
-![black-white-box](../assets/black-white-box.png)
-
-Testing: A ···→ D
+![system testing](../assets/stest-level.png)
 
 <!-- slide -->
 
 ## Acceptance testing
 ![black-box](../assets/black-box.png)
+
+<!-- slide -->
+
+## Black Box & White Box Testing
+![white vs black box](../assets/white-vs-black-box.png)
 
 <!-- slide -->
 
@@ -47,16 +53,19 @@ Testing: A ···→ D
 <!-- slide -->
 
 ## Maintenance
+Reviews, TDD & Continuous Integration
 
 <!-- slide -->
 
 ## Continuous Integration
-
 ![](https://i.imgur.com/klQuIlh.png)
+
+JUnit5 `@Tag` helps CI.
 
 <!-- slide -->
 
 ## Code reviews
+No direct push to branch, only pull-request.
 
 <!-- slide -->
 
