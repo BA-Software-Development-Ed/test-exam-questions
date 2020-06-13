@@ -4,6 +4,10 @@
 
 <!-- slide -->
 
+## What is Mocking
+
+<!-- slide -->
+
 ## Mocks, Spies
 ## Stubs, Fakes & Dummies
 

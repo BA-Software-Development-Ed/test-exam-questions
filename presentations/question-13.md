@@ -15,10 +15,19 @@
 <!-- slide --->
 
 ## Edge cases
+* Numerics
+* Invalid Type Inputs
+* Invalid Formats (Dates)
+* Empty Strings, null & undefined
 
 <!-- slide --->
 
 ## Decision tables
+| Condition | Rule 1 | Rule 2 | Rule 3 | Rule 4 |
+|---|---|---|---|---|
+| Username | False | True | False | True |
+| Password | False | True | True | True |
+| **Result** | Error | Error | Error | Access |
 
 <!-- slide --->
 

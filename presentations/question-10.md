@@ -12,6 +12,7 @@ Handle Exceptions
 <!-- slide --->
 
 ## Black-box development
+![black box](../assets/black-box.png)
 
 <!-- slide --->
 

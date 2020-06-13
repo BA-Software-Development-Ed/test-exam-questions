@@ -39,7 +39,7 @@ decimal price = calculator.CalculatePrice(myShoppingCart);
 
 <!-- slide --->
 
-## Dependency Injection & Inversion of Control
+#### Dependency Injection & Inversion of Control
 
 Problem
 ```java

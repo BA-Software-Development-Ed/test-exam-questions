@@ -5,7 +5,13 @@
 
 <!-- slide -->
 
+## Why Test?
+![no test](../assets/comic-1.png)
+
+<!-- slide -->
+
 ## Testable code
+![v model](../assets/v-model.png)
 
 <!-- slide --->
 
@@ -49,6 +55,9 @@ Code & Path Coverage
 ## Assertions, defensive programming
 Assert Positive and Negative Scenarios
 Handle Exceptions
+
+_Murhy’s law_
+_**"Anything that can go wrong will go wrong"**_
 
 <!-- slide --->
 

@@ -20,13 +20,24 @@ What is it, Examples & Benefits
 
 ## Static Analysis Tools
 
-StyleCop, PMD & FindBugs
+|||
+|---|---|
+| StyleCop | Coding standards |
+| FindBugs | Bugs & potential bugs |
+| PMD | Warns Against bad practice |
 
 <!-- slide -->
 
 ## More Tools
+Sonar stores result for later analysis
 
-Linters, SonarLint
+* Trends
+* Reports
+
+<!-- slide -->
+
+## Security
+![security](../assets/security.png)
 
 <!-- slide -->
 
@@ -39,7 +50,11 @@ _e.g. SQL injection & cross-site scripting_
 <!-- slide -->
 
 ## Benefits
+User finds bug (weeks, months, years)
+QA finds bug (days, weeks)
+Test finds bug (hours, minutes)
 
+**Static analyzer finds bug (seconds)**
 
 <!-- slide -->
 

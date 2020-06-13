@@ -57,6 +57,96 @@ Test2() { ... }
 
 <!-- slide --->
 
+## Dummy
+Doesn't know anything
+```java
+class BackendDummy implements IBackend {
+    public String getUser(int id) {
+        throw new NotImplementedException();
+    }
+
+    public int getRequestCount() {
+        throw new NotImplementedException();
+    }
+}  
+```
+
+<!-- slide --->
+
+## Stub
+Knows what you told it
+```java
+class BackendStub implements IBackend {
+    public String getUser(int id) {
+        return new User();
+    }
+
+    public int getRequestCount() {
+        return 10;
+    }
+}  
+```
+
+<!-- slide --->
+
+## Spy
+Stub with features
+```java
+class BackendStub implements IBackend {
+    private int requestCount = 0;
+    
+    public String getUser(int id) {
+        requestCount ++;
+        return new User();
+    }
+
+    public int getRequestCount() {
+        return requestCount;
+    }
+}  
+```
+
+<!-- slide --->
+
+## Mock
+Expects a lot
+```java
+@Rule
+public JUnitRuleMockery context = new JUnitRuleMockery();
+
+@Test
+final Movement deposit = context.mock(Movement.class, "deposit");
+
+context.checking(new Expectations() {{
+    oneOf(deposit).getAmount();
+    will(returnValue(100_00L));
+}});
+
+long mockResult = deposit.getAmount(); // 100_00L
+```
+
+<!-- slide --->
+
+## Fake
+You cant tell the difference
+```java
+class BackendStub implements IBackend {
+    private List<User> users = new ArrayList(); // pre-populated
+    private int requestCount = 0;
+    
+    public String getUser(int id) {
+        requestCount ++;
+        return users.get(id);
+    }
+
+    public int getRequestCount() {
+        return requestCount;
+    }
+}  
+```
+
+<!-- slide --->
+
 ## Matchers(Hamcrest)
 
 ```java
@@ -110,6 +200,11 @@ foo(user);
 
 ## Equivalence classes, boundary value analysis, equivalence partitions
 ![equivalence partitions](../assets/equivalence-partitions.png)  
+
+<!-- slide --->
+
+## Boundary value analysis
+![boundary values](../assets/boundary-values.png)
 
 <!-- slide -->
 

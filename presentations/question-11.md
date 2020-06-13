@@ -1,4 +1,5 @@
 <!-- slide -->
+
 ## Question 11
 ### Elaborate on dependencies in software, and how it’s related to the subject of test.
 
@@ -9,6 +10,7 @@
 <!-- slide --->
 
 ## System resources
+System Clock, Network & File IO
 
 <!-- slide --->
 
@@ -17,6 +19,12 @@
 <!-- slide --->
 
 ## Dependency inversion, Inversion of Control, Dependency Injection
+
+<!-- slide --->
+
+## Dependency inversion
+![dependency inversion](../assets/dependency-inversion.png)
+
 
 <!-- slide --->
 

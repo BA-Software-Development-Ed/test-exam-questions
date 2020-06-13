@@ -6,7 +6,37 @@
 
 <!-- slide -->
 
+## Manual Code Review
+![code review](../assets/code-review.png)
+
+<!-- slide -->
+
+## Cyclomatic Complexity
+```java
+foo() {
+    if (condition) {                    // CC 1
+
+        if (condition) {                // CC 2
+            // code here...
+        }
+
+        while (condition) {             // CC 3
+
+            if (condition) {            // CC 4
+                // code here...
+            } else {                    // CC 5
+                // code here...
+            }
+
+        }  
+    }
+}
+```
+
+<!-- slide -->
+
 ## Reviews
+![reviews](../assets/reviews.png)
 
 <!-- slide -->
 
