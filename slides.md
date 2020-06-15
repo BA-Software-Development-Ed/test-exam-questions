@@ -184,7 +184,7 @@ long mockResult = deposit.getAmount(); // 100_00L
 
 <!-- slide -->
 
-## Maintainability
+### Maintainability
 
 | Obtain | Avoid |
 |---|---|
@@ -195,6 +195,7 @@ long mockResult = deposit.getAmount(); // 100_00L
 |continuos integration||
 |interface & contracts||
 |defensive programming||
+|coding standards||
 
 <!-- slide -->
 
